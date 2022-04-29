@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.hero-bg{
+    background: #045858 /*url('gold.jpg')*/;
+    background-position: 12% 83%;
+    color: rgb(240, 246, 247);
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+header{
+    padding: 1em 0;
+}
+
+.hero-bg a {
+    background-color: black;
+    border-radius: 5px;
+    background-position-x: 20px;
+    width: 50px;
+    height: 50px;
+    color: rgb(251, 253, 253);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav > ul > div{
+    margin: 20px;
+    color: grey;
+}
+
+nav > ul > div :hover{
+
+    box-shadow: 2px rgb(192, 147, 147);
+}
+
+section{
+    margin: 0 1em;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0  1.2em;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4em;
+    position: relative;
+}
+
+h1 span ::before{
+    content: '';
+    position: absolute;
+    width: 3em;
+    background-color: aqua;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.hero-bg p{
+    font-weight: bold;
+    margin: 0 1em 3em;
+}
+
+.form{
+    background-color: white;
+    margin: 2em -1em 0;
+    padding: 2em;
+}
+
+label{
+    color: #2D7D98;
+    font-weight: bold;
+    display: block;margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+input[type=text] {
+    border: 1px solid #707070;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: .5em;
+    margin-top: 1.2em;
+}
+
+.form p{
+    color: grey;
+    margin-top: .5em;
+    font-weight: normal;
+    font-size: .9em;
+    margin-bottom: 1.5em;
+}
+
+input[type=button] {
+    background-color: #F89104;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #c78222;
+   
+}
+
